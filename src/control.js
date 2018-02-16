@@ -1,4 +1,4 @@
-var user = prompt("Spielername:", "");
+//var user = prompt("Spielername:", "");
 $(document).ready(function() {
 	var min = 0;
 	var max = 590;
