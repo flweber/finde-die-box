@@ -1,0 +1,40 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Game</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script type="text/javascript" src="src/TimeCircles.js"></script>
+        <script type="text/javascript" src="src/control.js"></script>
+        <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+		<link href="src/TimeCircles.css" rel="stylesheet">
+		<link href="src/style.css" rel="stylesheet" />
+    </head>
+    <body>
+    	<table id="timertable">
+    		<td id="timertd">
+    			<div id="timer"></div>
+        	</td>
+    		<td>
+    			<button class="btn btn-success btn-block fadeIn">Timer einblenden</button><br>
+        		<button class="btn btn-danger btn-block fadeOut">Timer ausblenden</button>	
+    		</td>
+    	</table>
+        <div class="clear"></div>
+        <table id="header">
+        	<td>
+        		<h1>Finde die Box</h1>
+        	</td>
+        	<td>
+        		<button class="btn btn-danger btn-block aufgeben">Aufgeben</button>
+        	</td>
+        </table>
+        <div id="spielfeld">
+        	<div id="suchbox"></div>
+        </div>
+        <!--<button id="beenden" class="btn btn-success btn-block">Beenden</button>-->
+        <!--<a id="beenden" href="#end">Beenden</a>-->
+        <div id="response"></div>
+    </body>
+</html>

@@ -1,0 +1,71 @@
+body {
+	text-align: center;
+}
+
+.clear {
+	clear: both;
+}
+
+#spielfeld {
+	width: 600px;
+	height: 600px;
+	background-color: black;
+	cursor: crosshair;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#timertable {
+	float: right;
+}
+
+#timertd {
+	width: 500px;
+}
+
+#header {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.aufgeben {
+	width: 70px;
+	height: 50px;
+	left: 20px;
+	position: relative;
+}
+
+.fadeIn, .fadeOut {
+	width: 120px;
+	height: 50px;
+}
+
+#beenden {
+	color: green;
+	display: none;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#beenden:hover {
+	color: red;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#suchbox {
+	width: 10px;
+	height: 10px;
+	/*background-color: green;
+	left: 0px;
+	top: 0px;*/
+	position: relative;
+}
+
+#suchbox:hover {
+	background-color: red;
+}
+
+#timer {
+	width: 500px;
+}
